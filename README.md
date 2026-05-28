@@ -21,3 +21,36 @@
 ---
 
 ## 🛠 Стек технологий
+
+- Python 3.8+
+- Flask (микрофреймворк)
+- HTML / CSS / JavaScript (нативный, без зависимостей)
+- Структура данных DSU с оптимизациями (сжатие пути + ранговое объединение)
+
+---
+
+## ▶️ Запуск
+
+```bash
+# 1. Клонировать репозиторий
+git clone https://github.com/your-username/boruvka-app.git
+cd boruvka-app
+
+# 2. Установить зависимости
+pip install flask
+
+# 3. Запустить приложение
+python app.py
+🌐 Приложение откроется по адресу: **http://127.0.0.1:5000**
+
+> 💡 **Рекомендация**: используйте виртуальное окружение
+> ```bash
+> python -m venv venv
+> source venv/bin/activate  # Linux/macOS
+> venv\Scripts\activate     # Windows
+> pip install flask
+> ```
+
+---
+
+## 📁 Структура проекта
